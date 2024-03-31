@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>OServer</title>
+    <link rel="stylesheet" href="cascata.css">
+</head>
+<body> 
+    <img src="imagens/brasil.png" class="brasil"><br><br>
+    <img src="imagens/ospt.png" class="logo">
+        <form action="processar.php" method="post">
+        <h3>Formulario de envio</h3>
+        <Label for="nome">Nome Completo:</Label>
+        <input type="text" name="name" placeholder="Nome Completo do cliente" required>
+        <Label for="endereço">Endereço:</Label>
+        <input type="text" name="text" placeholder="Endereço da residencia" required>
+        <input type="number" name="number" placeholder="Número" required>
+        <input type="text" name="text" placeholder="Bairro" required>
+        <Label for="celular">Número de celular para contato:</Label>
+        <input type="text" name="tel" placeholder="Número de celular para contato">
+        <Label>Serviço:</Label>
+        <textarea name="message" cols="25" rows="10" placeholder="Serviço" required></textarea>
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="accessKey" value="421010f3-2237-43f5-8ea0-b342e7e64d89">
+        <input type="hidden" name="subject" value="Contact us from - kayque.cardoso.9@gmail.com" />
+        <input type="hidden" name="replyTo" value="@">
+        <input type="hidden" name="redirectTo" value="https://infinitycooperative.github.io/Oserver/">
+        <!--<input type="submit" value="Enviar" />-->
+        <button type="submit">Enviar</button>
+    </form>
+
+   <a href="https://infinitycooperative.github.io/Alem_de_um_status/"><img src="imagens/infinity icon.png" class="infinity"></a>
+</body>
+</html>
